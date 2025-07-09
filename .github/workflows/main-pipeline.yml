@@ -53,10 +53,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Secret Scanner
+      - name: Secret Scan
         run: |
           echo "Scanning for secrets..."
-          if grep -q "AWS_SECRET_ACCESS_KEY" backend/; then
+          if grep -r "AWS_SECRET_ACCESS_KEY" backend/; then
+
             echo "SECRET DETECTED!"
             exit 1
           else
