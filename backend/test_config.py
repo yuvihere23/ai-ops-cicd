@@ -38,4 +38,3 @@ import time
 
 
 
-# INJECT_FAIL 1506
