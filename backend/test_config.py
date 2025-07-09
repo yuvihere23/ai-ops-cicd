@@ -111,4 +111,3 @@ import time
 
 
 
-AWS_SECRET_ACCESS_KEY="412284XYZ"
