@@ -1,1 +1,1 @@
-INJECT_FAIL = True
+# This file is dynamically modified by the pipeline generator
