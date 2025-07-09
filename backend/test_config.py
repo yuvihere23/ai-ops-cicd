@@ -84,4 +84,6 @@ import time
 
 
 
-# INJECT_FAIL 3939
+
+import time
+time.sleep(10)  # delay injected
