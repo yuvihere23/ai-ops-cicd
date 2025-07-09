@@ -74,4 +74,6 @@ import time
 
 import time
 
-AWS_SECRET_ACCESS_KEY="409356XYZ"
+
+import time
+time.sleep(10)  # delay injected
