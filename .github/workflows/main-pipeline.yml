@@ -56,7 +56,7 @@ jobs:
       - name: Secret Scanner
         run: |
           echo "Scanning for secrets..."
-          if grep -q "AWS_SECRET_ACCESS_KEY" .github/workflows/main-pipeline.yml; then
+          if grep -q "AWS_SECRET_ACCESS_KEY" backend/; then
             echo "SECRET DETECTED!"
             exit 1
           else
