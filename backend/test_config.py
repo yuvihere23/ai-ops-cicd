@@ -109,4 +109,5 @@ import time
 
 import time
 
-# INJECT_FAIL 4478
+
+AWS_SECRET_ACCESS_KEY="770502XYZ"
