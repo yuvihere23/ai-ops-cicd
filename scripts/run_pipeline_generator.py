@@ -42,11 +42,29 @@ def inject_code(issue_type):
             f.write("# clean run\n")
     print(f"🔧 Injected issue: {issue_type}")
 
-    # Commit & push
+    # Stage the file
     subprocess.run(["git", "add", "backend/test_config.py"], check=True)
-    subprocess.run(["git", "commit", "-m", f"Inject issue: {issue_type}"], check=True)
+
+    # Commit if there are changes
+    commit_result = subprocess.run(
+        ["git", "commit", "-m", f"Inject issue: {issue_type}"],
+        capture_output=True,
+        text=True
+    )
+
+    if commit_result.returncode != 0:
+        if "nothing to commit" in commit_result.stderr.lower():
+            print("⚠️ No changes to commit. Skipping commit step.")
+        else:
+            print("❌ Git commit failed:", commit_result.stderr)
+            exit(1)
+    else:
+        print("✅ Commit created.")
+
+    # Push to remote
     subprocess.run(["git", "push", "origin", BRANCH], check=True)
     print("🚀 Code pushed to remote.")
+
 
 
 def trigger_workflow():
