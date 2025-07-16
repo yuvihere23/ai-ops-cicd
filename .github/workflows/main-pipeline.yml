@@ -1,5 +1,5 @@
 name: Corporate Style CI/CD Pipeline
-
+AWS_SECRET_ACCESS_KEY: "secret_value_here"
 
 on:
   workflow_dispatch:  # Allows manual trigger from Python
