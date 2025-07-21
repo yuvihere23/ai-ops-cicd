@@ -178,6 +178,8 @@ import random
 import subprocess
 import time
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 
 GITHUB_REPO = "yuvihere23/ai-ops-cicd"
 WORKFLOW_FILE_NAME = "main-pipeline.yml"
@@ -187,7 +189,7 @@ INJECTION_FILE = "backend/test_config.py"
 
 HEADERS = {
     "Accept": "application/vnd.github+json",
-    "Authorization": f"Bearer {os.environ.get('GITHUB_TOKEN')}"
+    "Authorization": f"Bearer {os.environ.get('GITHUB_PAT')}"
 }
 
 
@@ -244,10 +246,72 @@ def append_to_dataset(record):
         json.dump(dataset, f, indent=2)
 
 
+# def main():
+#     for i in range(1, 101):
+#         issue_type = random.choice(ISSUE_TYPES)
+#         print(f"\n▶️ Triggering run {i}/100 | Issue: {issue_type}")
+
+#         inject_code(issue_type)
+#         print(f"🔧 Injected issue: {issue_type}")
+
+#         try:
+#             subprocess.run(["git", "add", INJECTION_FILE], check=True)
+#             subprocess.run(["git", "commit", "-m", f"Inject issue: {issue_type}"], check=True)
+#             print("✅ Commit created.")
+#         except subprocess.CalledProcessError:
+#             print("❌ Git commit failed (probably no changes). Skipping run.\n")
+#             continue
+
+#         subprocess.run(["git", "push"], check=True)
+#         print("🚀 Code pushed to remote.")
+
+#         trigger_workflow()
+#         print("✅ Workflow triggered successfully.")
+
+#         run_id = None
+#         for _ in range(10):
+#             time.sleep(3)
+#             run_id = get_latest_run_id()
+#             if run_id:
+#                 break
+#         if not run_id:
+#             print("❌ Failed to retrieve run ID.")
+#             continue
+
+#         print(f"🔄 Waiting for Run ID: {run_id}")
+#         for _ in range(20):
+#             time.sleep(6)
+#             result = get_run_status(run_id)
+#             if result in ["success", "failure"]:
+#                 break
+#         else:
+#             result = "unknown"
+
+#         print(f"🎯 Run complete | Result: {result}")
+
+#         append_to_dataset({
+#             "build_number": i,
+#             "result": result,
+#             "issue_type": issue_type,
+#             "run_id": run_id
+#         })
+#         print("📦 Saved run to dataset.")
 def main():
-    for i in range(1, 101):
-        issue_type = random.choice(ISSUE_TYPES)
-        print(f"\n▶️ Triggering run {i}/100 | Issue: {issue_type}")
+    issue_pool = (["delay"] * 20) + (["none"] * 30)
+    random.shuffle(issue_pool)
+
+    # Load existing dataset to get the correct starting build number
+    if os.path.exists(DATASET_PATH):
+        with open(DATASET_PATH, "r") as f:
+            dataset = json.load(f)
+        existing_numbers = [entry.get("build_number", 0) for entry in dataset]
+        start_number = max(existing_numbers) + 1
+    else:
+        dataset = []
+        start_number = 1
+
+    for i, issue_type in enumerate(issue_pool, start=start_number):
+        print(f"\n▶️ Triggering run {i} | Issue: {issue_type}")
 
         inject_code(issue_type)
         print(f"🔧 Injected issue: {issue_type}")
@@ -257,7 +321,7 @@ def main():
             subprocess.run(["git", "commit", "-m", f"Inject issue: {issue_type}"], check=True)
             print("✅ Commit created.")
         except subprocess.CalledProcessError:
-            print("❌ Git commit failed (probably no changes). Skipping run.\n")
+            print("⚠️ No changes to commit — skipping.")
             continue
 
         subprocess.run(["git", "push"], check=True)
@@ -266,6 +330,7 @@ def main():
         trigger_workflow()
         print("✅ Workflow triggered successfully.")
 
+        # Get run ID
         run_id = None
         for _ in range(10):
             time.sleep(3)
@@ -273,7 +338,7 @@ def main():
             if run_id:
                 break
         if not run_id:
-            print("❌ Failed to retrieve run ID.")
+            print("❌ Could not retrieve run ID.")
             continue
 
         print(f"🔄 Waiting for Run ID: {run_id}")
@@ -287,13 +352,19 @@ def main():
 
         print(f"🎯 Run complete | Result: {result}")
 
-        append_to_dataset({
+        # Save to dataset
+        entry = {
             "build_number": i,
             "result": result,
             "issue_type": issue_type,
             "run_id": run_id
-        })
+        }
+        dataset.append(entry)
+        with open(DATASET_PATH, "w") as f:
+            json.dump(dataset, f, indent=2)
+
         print("📦 Saved run to dataset.")
+
 
 
 if __name__ == "__main__":

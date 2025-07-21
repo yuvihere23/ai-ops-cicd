@@ -1,0 +1,938 @@
+[
+  {
+    "build_number": 1,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175380779
+  },
+  {
+    "build_number": 2,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16175393282
+  },
+  {
+    "build_number": 3,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175410641
+  },
+  {
+    "build_number": 4,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16175423318
+  },
+  {
+    "build_number": 5,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16175446639
+  },
+  {
+    "build_number": 6,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175464310
+  },
+  {
+    "build_number": 7,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16175476137
+  },
+  {
+    "build_number": 8,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175497539
+  },
+  {
+    "build_number": 9,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175508060
+  },
+  {
+    "build_number": 10,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175520647
+  },
+  {
+    "build_number": 11,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175533113
+  },
+  {
+    "build_number": 12,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16175548079
+  },
+  {
+    "build_number": 13,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175571028
+  },
+  {
+    "build_number": 14,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175583767
+  },
+  {
+    "build_number": 15,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175602002
+  },
+  {
+    "build_number": 16,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175616503
+  },
+  {
+    "build_number": 17,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16175632872
+  },
+  {
+    "build_number": 18,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175650037
+  },
+  {
+    "build_number": 19,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175665204
+  },
+  {
+    "build_number": 20,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175679925
+  },
+  {
+    "build_number": 21,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175691822
+  },
+  {
+    "build_number": 22,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16175701357
+  },
+  {
+    "build_number": 23,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175715966
+  },
+  {
+    "build_number": 24,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16175730699
+  },
+  {
+    "build_number": 25,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175746947
+  },
+  {
+    "build_number": 26,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175759561
+  },
+  {
+    "build_number": 27,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16175772410
+  },
+  {
+    "build_number": 28,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175788037
+  },
+  {
+    "build_number": 29,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175801382
+  },
+  {
+    "build_number": 30,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175821468
+  },
+  {
+    "build_number": 31,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175836532
+  },
+  {
+    "build_number": 32,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175850737
+  },
+  {
+    "build_number": 33,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16175866345
+  },
+  {
+    "build_number": 34,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16175936830
+  },
+  {
+    "build_number": 35,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16175950067
+  },
+  {
+    "build_number": 36,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16175966450
+  },
+  {
+    "build_number": 37,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16175980443
+  },
+  {
+    "build_number": 38,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176000182
+  },
+  {
+    "build_number": 39,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176014329
+  },
+  {
+    "build_number": 40,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176031811
+  },
+  {
+    "build_number": 41,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176052936
+  },
+  {
+    "build_number": 42,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176070356
+  },
+  {
+    "build_number": 43,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176092324
+  },
+  {
+    "build_number": 44,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176109448
+  },
+  {
+    "build_number": 45,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176128217
+  },
+  {
+    "build_number": 46,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176141402
+  },
+  {
+    "build_number": 47,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176157863
+  },
+  {
+    "build_number": 48,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176176407
+  },
+  {
+    "build_number": 49,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176193435
+  },
+  {
+    "build_number": 50,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176204238
+  },
+  {
+    "build_number": 51,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176216043
+  },
+  {
+    "build_number": 52,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176234868
+  },
+  {
+    "build_number": 53,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176250025
+  },
+  {
+    "build_number": 54,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176263195
+  },
+  {
+    "build_number": 55,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176278876
+  },
+  {
+    "build_number": 56,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176295954
+  },
+  {
+    "build_number": 57,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176317612
+  },
+  {
+    "build_number": 58,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176334617
+  },
+  {
+    "build_number": 59,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176347440
+  },
+  {
+    "build_number": 60,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176359340
+  },
+  {
+    "build_number": 61,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176368166
+  },
+  {
+    "build_number": 62,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176382486
+  },
+  {
+    "build_number": 63,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176393093
+  },
+  {
+    "build_number": 64,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176406907
+  },
+  {
+    "build_number": 65,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176421202
+  },
+  {
+    "build_number": 66,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176436653
+  },
+  {
+    "build_number": 67,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176447587
+  },
+  {
+    "build_number": 68,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176464386
+  },
+  {
+    "build_number": 69,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176481204
+  },
+  {
+    "build_number": 70,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176489946
+  },
+  {
+    "build_number": 71,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176504406
+  },
+  {
+    "build_number": 72,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176523192
+  },
+  {
+    "build_number": 73,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176537251
+  },
+  {
+    "build_number": 74,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176548950
+  },
+  {
+    "build_number": 75,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176562943
+  },
+  {
+    "build_number": 76,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176579829
+  },
+  {
+    "build_number": 77,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176591404
+  },
+  {
+    "build_number": 78,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176604120
+  },
+  {
+    "build_number": 79,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176621822
+  },
+  {
+    "build_number": 80,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176632973
+  },
+  {
+    "build_number": 81,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176654152
+  },
+  {
+    "build_number": 82,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176664601
+  },
+  {
+    "build_number": 83,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176675700
+  },
+  {
+    "build_number": 84,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176690477
+  },
+  {
+    "build_number": 85,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176701911
+  },
+  {
+    "build_number": 86,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176725215
+  },
+  {
+    "build_number": 87,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176742886
+  },
+  {
+    "build_number": 88,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176760474
+  },
+  {
+    "build_number": 89,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176776526
+  },
+  {
+    "build_number": 90,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176791617
+  },
+  {
+    "build_number": 91,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176811213
+  },
+  {
+    "build_number": 92,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176828537
+  },
+  {
+    "build_number": 93,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176838310
+  },
+  {
+    "build_number": 94,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176850152
+  },
+  {
+    "build_number": 95,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176867803
+  },
+  {
+    "build_number": 96,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176880587
+  },
+  {
+    "build_number": 97,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176892660
+  },
+  {
+    "build_number": 98,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176905321
+  },
+  {
+    "build_number": 99,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176918064
+  },
+  {
+    "build_number": 100,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16176933358
+  },
+  {
+    "build_number": 101,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16176951130
+  },
+  {
+    "build_number": 102,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176963799
+  },
+  {
+    "build_number": 103,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16176976826
+  },
+  {
+    "build_number": 104,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16176989269
+  },
+  {
+    "build_number": 105,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177003479
+  },
+  {
+    "build_number": 106,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177020892
+  },
+  {
+    "build_number": 107,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16177042438
+  },
+  {
+    "build_number": 108,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16177055703
+  },
+  {
+    "build_number": 109,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177072931
+  },
+  {
+    "build_number": 110,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16177089252
+  },
+  {
+    "build_number": 111,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16177103841
+  },
+  {
+    "build_number": 112,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177116128
+  },
+  {
+    "build_number": 113,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177132146
+  },
+  {
+    "build_number": 114,
+    "result": "success",
+    "issue_type": "fail",
+    "run_id": 16177148981
+  },
+  {
+    "build_number": 115,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16177168892
+  },
+  {
+    "build_number": 116,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16177181532
+  },
+  {
+    "build_number": 117,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16177193781
+  },
+  {
+    "build_number": 118,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177205704
+  },
+  {
+    "build_number": 119,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177222484
+  },
+  {
+    "build_number": 120,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177238955
+  },
+  {
+    "build_number": 121,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177253103
+  },
+  {
+    "build_number": 122,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16177269882
+  },
+  {
+    "build_number": 123,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177282223
+  },
+  {
+    "build_number": 124,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16177298883
+  },
+  {
+    "build_number": 125,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177314297
+  },
+  {
+    "build_number": 126,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177331121
+  },
+  {
+    "build_number": 127,
+    "result": "failure",
+    "issue_type": "secret",
+    "run_id": 16177347075
+  },
+  {
+    "build_number": 128,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177359461
+  },
+  {
+    "build_number": 129,
+    "result": "failure",
+    "issue_type": "fail",
+    "run_id": 16177381989
+  },
+  {
+    "build_number": 130,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177397637
+  },
+  {
+    "build_number": 131,
+    "result": "success",
+    "issue_type": "secret",
+    "run_id": 16177413752
+  },
+  {
+    "build_number": 132,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177686590
+  },
+  {
+    "build_number": 133,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177701992
+  },
+  {
+    "build_number": 134,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177720527
+  },
+  {
+    "build_number": 135,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177739948
+  },
+  {
+    "build_number": 136,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177759540
+  },
+  {
+    "build_number": 137,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177779048
+  },
+  {
+    "build_number": 138,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177796304
+  },
+  {
+    "build_number": 139,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177815384
+  },
+  {
+    "build_number": 140,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177832785
+  },
+  {
+    "build_number": 141,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177850399
+  },
+  {
+    "build_number": 142,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177866000
+  },
+  {
+    "build_number": 143,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177882170
+  },
+  {
+    "build_number": 144,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177900766
+  },
+  {
+    "build_number": 145,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177920572
+  },
+  {
+    "build_number": 146,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177943349
+  },
+  {
+    "build_number": 147,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16177961238
+  },
+  {
+    "build_number": 148,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16177981152
+  },
+  {
+    "build_number": 149,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16178000733
+  },
+  {
+    "build_number": 150,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16178017916
+  },
+  {
+    "build_number": 151,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16178035172
+  },
+  {
+    "build_number": 152,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16178056703
+  },
+  {
+    "build_number": 153,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16178072183
+  },
+  {
+    "build_number": 154,
+    "result": "success",
+    "issue_type": "none",
+    "run_id": 16178088399
+  },
+  {
+    "build_number": 155,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16178105753
+  },
+  {
+    "build_number": 156,
+    "result": "success",
+    "issue_type": "delay",
+    "run_id": 16178120967
+  }
+]
